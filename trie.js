@@ -1,12 +1,10 @@
-// TrieNode class to represent each character node
+
 class TrieNode {
   constructor() {
-    this.children = {}; // char -> TrieNode
-    this.isEndOfWord = false; // true if a word ends here
-  }
+    this.children = {}; 
+    this.isEndOfWord = false; }
 }
 
-// Trie class with insert, search, startsWith methods
 class Trie {
   constructor() {
     this.root = new TrieNode();
